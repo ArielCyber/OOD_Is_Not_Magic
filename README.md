@@ -9,16 +9,15 @@ Network traffic classification plays a crucial role in ensuring the security and
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Experimental Setup](#experimental-setup)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
 - [How to Use](#how-to-use)
-- [References](#references)
 
 ## Introduction
 Network traffic classification is essential for various network management tasks, including intrusion detection, quality of service, and traffic engineering. However, accurately classifying traffic becomes challenging when confronted with unknown or out-of-distribution samples. In this study, we investigate the effectiveness of three OOD detection techniques - ODIN, GradBP, and K+1 - in improving the performance of traffic classification models. We evaluate these methods on both binary and multiclass classification tasks and analyze the trade-offs between accuracy and rejection rates.
 
-## How to Use
-Running this code requires the datasets we use, which are not public as of right now.
+## Dataset
+In order to download the dataset, please download the zip file at: https://drive.google.com/file/d/1aOcB21G3TR4XrxT_XzWllIoz6BqP3y3_/view?usp=drive_link
 
+## How to Use
+Download the datasets and clone the repository, run train_models.py for the first experimnent results, and test_models.py for the second experiment.
+
+All experiments were run with PyTorch <= 1.13 and 2.5 < Tensorflow < 2.13. 
